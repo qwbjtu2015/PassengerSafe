@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView 
+	    android:id="@+id/HeadIcon"
+	    android:layout_width="80dp"
+	    android:layout_height="80dp"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="25dp"
+	    android:background="@drawable/head_icon"/>
+  
+    
+    <TextView
+        android:id="@+id/textView_driver"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="姓名：" 
+        android:textSize="18sp"
+        android:gravity="center"/>
+    
+    <TextView
+        android:id="@+id/textView_licensePlate"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="车牌号：" 
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView_driverPhone"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="手机：" 
+        android:textSize="18sp"
+        android:gravity="center"/>
+    
+        <TextView
+        android:id="@+id/textView_evaluation"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="评价" 
+        android:textSize="18sp"
+        android:gravity="center"/>
+        
+        	<Button
+	    android:id="@+id/button_GoToWork"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"       
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="#00EE00"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="上班"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

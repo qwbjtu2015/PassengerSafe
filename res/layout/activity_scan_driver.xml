@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation = "vertical"
+    tools:context=".PassengerMainActivity" >
+
+ <Button
+    android:id="@+id/button_saomiao"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    
+    android:layout_marginTop="26dp"
+    android:background="#00cc00"
+    android:text="扫描附近可用出租车" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:orientation="horizontal" 
+    android:layout_marginTop="20dip">
+
+    <ImageView
+        android:id ="@+id/image_driver1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.04"
+        android:src="@drawable/siji" />
+    
+  <LinearLayout
+       android:layout_width="wrap_content"
+    android:layout_height="80dip"
+     android:orientation="vertical"
+     android:layout_weight="5"
+      
+  >
+  <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="姓名：李司机（男）"
+        />
+      <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="手机号：1234567"
+        />
+       <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="评分：4"
+        />
+        <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="评价：热心、好司机"
+        />
+         <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="举报次数：0"
+        />
+</LinearLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:orientation="horizontal" 
+    android:layout_marginTop="20dip">
+
+    <ImageView
+        android:id="@+id/image_driver2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.04"
+        android:src="@drawable/siji" />
+    
+  <LinearLayout
+       android:layout_width="wrap_content"
+    android:layout_height="80dip"
+     android:orientation="vertical"
+     android:layout_weight="5"
+      
+  >
+  <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="姓名：赵司机（女）"
+        />
+      <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="手机号：95867386"
+        />
+       <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="评分：4"
+        />
+        <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="评价：唠叨"
+        />
+         <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="举报次数：1"
+        />
+</LinearLayout>
+</LinearLayout>
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:orientation="horizontal" 
+    android:layout_marginTop="20dip">
+
+    <ImageView
+        android:id="@+id/image_driver3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.04"
+        android:src="@drawable/siji" />
+    
+  <LinearLayout
+       android:layout_width="wrap_content"
+    android:layout_height="80dip"
+     android:orientation="vertical"
+     android:layout_weight="5"
+      
+  >
+  <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="姓名：王司机（男）"
+        />
+      <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="手机号：456744667"
+        />
+       <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="评分：2"
+        />
+        <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="评价：抽烟"
+        />
+         <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="举报次数：2"
+        />
+</LinearLayout>
+</LinearLayout>
+  </LinearLayout>

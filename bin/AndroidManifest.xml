@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chengkejiemian"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.passengersafe.PassengerSafe"
+            android:label="@string/title_activity_qi_don"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.CkliMainActivity"
+            android:label="@string/title_activity_ckli_main" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.WzgxMainActivity"
+            android:label="@string/title_activity_wzgx_main" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.PjMainActivity"
+            android:label="@string/title_activity_pj_main" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.ScanDriverActivity"
+            android:label="@string/title_activity_siji_main" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.TraceMainActivity"
+            android:label="@string/title_activity_trace_main" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.CheckTrace"
+            android:label="@string/title_activity_check_trace" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.AutoTrace"
+            android:label="@string/title_activity_auto_trace" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.ManualTrace"
+            android:label="@string/title_activity_manual_trace" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.PassengerMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.LogInActivity"
+            android:label="@string/title_activity_log_in" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.DriverMainActivity"
+            android:label="@string/title_activity_driver_main" >
+        </activity>
+        <activity
+            android:name="com.example.passengersafe.DriverStatusActivity"
+            android:label="@string/title_activity_driver_status" >
+        </activity>
+    </application>
+
+</manifest>

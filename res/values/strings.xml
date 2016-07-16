@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PassengerSafe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ckli_main">CkliMainActivity</string>
+    <string name="title_activity_wzgx_main">WzgxMainActivity</string>
+    <string name="title_activity_pj_main">PjMainActivity</string>
+    <string name="title_activity_siji_main">SijiMainActivity</string>
+    <string name="title_activity_trace_main">TraceMainActivity</string>
+    <string name="title_activity_check_trace">CheckTrace</string>
+    <string name="title_activity_auto_trace">AutoTrace</string>
+    <string name="title_activity_manual_trace">ManualTrace</string>
+    <string name="title_activity_qi_don">QiDon</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="title_activity_driver_main">DriverMainActivity</string>
+    <string name="title_activity_driver_status">DriverStatusActivity</string>
+
+</resources>
